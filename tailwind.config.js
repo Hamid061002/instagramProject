@@ -2,8 +2,16 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        color1: "#EFEFEF"
+      },
+      width:{
+        312: "312px"
+      }
+    },
   },
   plugins: [],
+  darkMode: 'class',
 }
 
