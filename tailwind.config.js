@@ -7,7 +7,8 @@ module.exports = {
         color1: "#EFEFEF"
       },
       width:{
-        312: "312px"
+        312: "312px",
+        72: "72px"
       }
     },
   },
