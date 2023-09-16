@@ -8,7 +8,13 @@ module.exports = {
       },
       width:{
         312: "312px",
-        72: "72px"
+        72: "72px",
+      },
+      spacing:{
+        'three': "3px"
+      },
+      screens:{
+        670: "670px"
       }
     },
   },
