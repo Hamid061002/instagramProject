@@ -9,7 +9,11 @@ module.exports = {
       width:{
         312: "312px",
         72: "72px",
-        470: "470px"
+        470: "470px",
+        66: "62px"
+      },
+      height:{
+        66: "62px"
       },
       spacing:{
         'three': "3px",
