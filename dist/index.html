@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <link href="all.css" rel="stylesheet">
     <title>Document</title>
     <style>
         .hoverLogoDown {
@@ -19,7 +20,7 @@
 
 <body class="bg-white">
     <!-- header -->
-    <header class="flex items-center fixed w-full bg-white md:hidden border-b-2">
+    <header class="flex items-center fixed w-full bg-white md:hidden border-b-2 z-10">
         <!-- instagram -->
         <div class="p-4 flex relative">
             <svg aria-label="Instagram" class="_ab6- text-black" height="29" role="img" viewBox="32 4 113 32"
@@ -136,7 +137,8 @@
                         <div class="hidden ms-4 xl:block">Home</div>
                     </div>
                     <!-- Search icon -->
-                    <div class="p-3 rounded-md md:flex md:hover:bg-gray-100 hover:scale-105 transition-all cursor-pointer hidden">
+                    <div
+                        class="p-3 rounded-md md:flex md:hover:bg-gray-100 hover:scale-105 transition-all cursor-pointer hidden">
                         <svg aria-label="Search" class="_ab6-" color="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" height="24"
                             role="img" viewBox="0 0 24 24" width="24">
                             <path d="M19 10.5A8.5 8.5 0 1 1 10.5 2a8.5 8.5 0 0 1 8.5 8.5Z" fill="none"
@@ -194,7 +196,8 @@
                         <div class="hidden ms-4 xl:block">Messages</div>
                     </div>
                     <!-- Notifications -->
-                    <div class="p-3 rounded-md md:flex md:hover:bg-gray-100 hover:scale-105 transition-all cursor-pointer hidden">
+                    <div
+                        class="p-3 rounded-md md:flex md:hover:bg-gray-100 hover:scale-105 transition-all cursor-pointer hidden">
                         <svg aria-label="Notifications" class="x1lliihq x1n2onr6" color="rgb(0, 0, 0)"
                             fill="rgb(0, 0, 0)" height="24" role="img" viewBox="0 0 24 24" width="24">
                             <title>Notifications</title>
@@ -221,7 +224,8 @@
                     </div>
                     <!-- Profile -->
                     <div class="p-3 rounded-md flex md:hover:bg-gray-100 hover:scale-105 transition-all cursor-pointer">
-                        <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" width="24" height="24" class="rounded-full">
+                        <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" width="24" height="24"
+                            class="rounded-full">
                         <div class="hidden ms-4 xl:block">Profile</div>
                     </div>
                 </div>
@@ -241,102 +245,175 @@
             </div>
         </div>
     </div>
+    <!-- body -->
     <section class="flex flex-row sm:justify-center md:ms-20">
         <!-- stories & posts -->
-        <div class="mt-16 md:mt-6">
+        <div class="mt-16 md:mt-6 flex flex-col overflow-hidden">
+            <!-- stories -->
             <div class="w-full flex flex-row justify-start gap-x-4 pt-5">
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/273490796_949002662671787_4761541777676727909_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">mobin_paravar</div>
                 </div>
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/277905701_250763133862113_3254953905772345059_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">mahdadahmadi</div>
                 </div>
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/306888316_797155668370920_4174848572790981422_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">its__soroush</div>
                 </div>
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/325665466_3387538721496045_7625208204992165938_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">leonsinagh</div>
                 </div>
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full"
+                                width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">7._______.khat</div>
                 </div>
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/343613433_183983594572632_8712117244675919883_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">shdmman</div>
                 </div>
                 <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/363302284_669520771284349_7484556587709977188_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">_farzinhamzei</div>
                 </div>
-                <div class="w-16">
-                    <div class="p-three bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
-                        <div class="bg-red-500 border border-white rounded-full">
-                            <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="rounded-full" width="56" height="56">
+                <div class="w-16 relative">
+                    <div class="p-twoHalf bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full">
+                        <div class="bg-red-500 border-2 border-white rounded-full">
+                            <img src="../photos/stories photos/367641932_316476977414639_3677004553449315556_n.jpg"
+                                class="rounded-full" width="56" height="56">
                         </div>
                     </div>
-                    <div class="truncate text-xs">Lorem,ipsumdolor.</div>
+                    <div class="truncate text-xs">behzadamini</div>
+                    <!-- right arrow icon -->
+                    <div class="w-11 h-11 justify-center items-center absolute top-2.5 right-1.5 hidden sm:flex">
+                        <i class="fa-solid fa-circle-chevron-right text-2xl text-white"
+                            style="text-shadow: 0 3px 15px rgba(0, 0, 0, 0.300);"></i>
+                    </div>
+                </div>
+                <!-- right arrow icon <sm -->
+                <div class="w-11 h-11 flex justify-center items-center absolute right-2 mt-2.5 sm:hidden">
+                    <i class="fa-solid fa-circle-chevron-right text-2xl rounded-full text-white"
+                        style="text-shadow: 0 3px 15px rgba(0, 0, 0, 0.300);"></i>
                 </div>
             </div>
-            <div></div>
+            <!-- posts -->
+            <div
+                class="flex flex-col justify-center items-center border-t 480:border-t-0 w-screen mt-2 480:mt-8 480:divide-y-2 480:gap-y-6 pe-4 pb-10">
+                <div class="flex flex-col w-screen 480:w-470">
+                    <!-- profile -->
+                    <div class="p-3 480:px-1">
+                        <div class="float-left flex items-center">
+                            <div>
+                                <img src="../photos/profiles/377333649_974925493611505_8072209828193678417_n.jpg"
+                                    width="32" height="32" class="rounded-full">
+                            </div>
+                            <div class="text-sm ms-3">m0stafa.72</div>
+                            <div class="text-sm text-gray-500 ms-1">• 1d</div>
+                        </div>
+                        <div class="float-right me-5 480:me-0"><i class="fas fa-ellipsis-h cursor-pointer"></i></div>
+                    </div>
+                    <!-- post -->
+                    <div class="w-full bg-black rounded overflow-hidden">
+                        <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="w-full">
+                    </div>
+                    <!-- caption -->
+                    <div class="flex flex-col px-7 py-3 ">
+                        <!-- like & comment & save &... -->
+                        <div>
+                            <div class="float-left flex gap-x-4">
+                                <!-- like icon -->
+                                <svg class="hover:text-zinc-500 cursor-pointer" aria-label="Like" class="x1lliihq x1n2onr6" height="
+                                    24" role="img" viewBox="0 0 24 24" width="24">
+                                    <title>Like</title>
+                                    <path fill="currentColor" stroke="currentColor" stroke-linejoin="round"
+                                        stroke-width="0"
+                                        d="M16.792 3.904A4.989 4.989 0 0 1 21.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 0 1 4.708-5.218 4.21 4.21 0 0 1 3.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 0 1 3.679-1.938m0-2a6.04 6.04 0 0 0-4.797 2.127 6.052 6.052 0 0 0-4.787-2.127A6.985 6.985 0 0 0 .5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 0 0 3.518 3.018 2 2 0 0 0 2.174 0 45.263 45.263 0 0 0 3.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 0 0-6.708-7.218Z">
+                                    </path>
+                                </svg>
+                                <!-- comment icon -->
+                                <svg class="hover:text-zinc-500 cursor-pointer" aria-label="Comment" class="x1lliihq x1n2onr6"
+                                    color="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" height="24" role="img" viewBox="0 0 24 24"
+                                    width="24">
+                                    <title>Comment</title>
+                                    <path d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z" fill="none"
+                                        stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path>
+                                </svg>
+                                <!-- forward icon -->
+                                <svg class="hover:text-zinc-500 cursor-pointer" aria-label="Share Post" class="x1lliihq x1n2onr6"
+                                    color="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" height="24" role="img" viewBox="0 0 24 24"
+                                    width="24">
+                                    <title>Share Post</title>
+                                    <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"
+                                        x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                    <polygon fill="none"
+                                        points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                        stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                                </svg>
+                            </div>
+                            <div class="float-right">
+                                <!-- save icon -->
+                                <svg class="hover:text-zinc-500 cursor-pointer" aria-label="Save" class="x1lliihq x1n2onr6"
+                                    color="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" height="24" role="img" viewBox="0 0 24 24"
+                                    width="24">
+                                    <title>Save</title>
+                                    <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Number of likes -->
+                        <div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- suggestions -->
         <div></div>
     </section>
-    <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ratione inventore in voluptas dicta sit impedit! Provident ea, libero obcaecati vitae quia quos? Magni voluptatem officia laboriosam aperiam perferendis nihil!
-        Accusamus laudantium atque distinctio nesciunt eligendi, molestiae repellat reiciendis officiis repudiandae iste porro cum facilis voluptas consequuntur blanditiis quia totam explicabo corporis alias impedit. Ut nulla unde officiis eligendi fugit!
-        Magnam neque ipsum cumque nulla quia, laboriosam nisi nesciunt non commodi iusto. Perspiciatis libero a nesciunt doloribus autem in praesentium ullam? Omnis beatae repellat fugiat sapiente natus placeat ratione rerum?
-        Aliquam culpa corporis minus, eveniet nesciunt modi incidunt! Numquam, nostrum, aut consequuntur consectetur inventore mollitia at ea quaerat ipsa reprehenderit fugiat illum fugit maxime, impedit molestias laboriosam in esse nemo.
-        Iusto quidem nesciunt quam unde odio sed voluptatum voluptas sapiente. Natus eius facilis quod, commodi quisquam fugiat fuga? Odit cum hic in at, tempore optio. Suscipit non dolorem voluptas repudiandae.
-        Voluptatem porro modi veniam ducimus aperiam iusto deleniti asperiores at neque eum. Expedita, accusantium laboriosam maiores totam vitae, alias labore obcaecati at aperiam, repellat perferendis deserunt fugit enim sit nobis.
-        Id sequi reiciendis debitis commodi, quis corporis laudantium voluptas reprehenderit quae tenetur porro maxime doloribus dolor sint labore officia at, animi rem iure sunt provident amet dolores eius. Quas, beatae?
-        Hic, commodi vero. Delectus deleniti, dignissimos fugit similique est nam molestias excepturi sit maiores harum, repellat, ipsa iure ducimus in magnam tenetur! Accusantium autem, sit quibusdam rem laborum soluta amet.
-        Incidunt blanditiis repudiandae eum itaque modi temporibus? Perferendis deserunt excepturi nisi rem. Perferendis delectus incidunt, dolorem nihil fugiat animi tempora eligendi a ipsam nulla magni cumque labore perspiciatis pariatur distinctio!
-        Atque rerum perferendis ipsam velit illum, at exercitationem quod soluta expedita nihil animi nobis repellendus iste numquam, provident dicta. Ducimus sunt officia harum autem nesciunt officiis pariatur error voluptatem? Recusandae!
-        Accusantium consectetur officiis delectus, ipsum excepturi maiores, provident nostrum facere praesentium natus dolor non sapiente hic quas corporis architecto quasi quibusdam molestiae, quidem nemo aliquam in! Fugit eum quos quis!
-        Non pariatur excepturi expedita corrupti odio? Maiores repellat assumenda numquam maxime nesciunt ipsam est similique, a, ullam quae, ab debitis. Unde, quasi asperiores rerum fuga atque harum maiores placeat ipsa.
-        Tempore quia dolor nihil? Saepe officia reiciendis eaque excepturi facilis hic eum reprehenderit obcaecati, iure magnam et? Rerum maiores quam voluptatum, ullam quidem officiis fugiat velit magnam odit placeat sed?
-        Placeat eius quod et vitae, animi laudantium blanditiis totam quasi fuga ea adipisci magni harum quae. Minima soluta iure corporis, eaque quibusdam accusamus repellendus hic, amet ipsum aperiam, quisquam quae.
-        Facere repudiandae ut quisquam ex omnis, perspiciatis libero rerum quasi in, ratione, velit impedit magnam molestias optio quis culpa sequi saepe modi quos. Obcaecati, perferendis id! Ea facere at odit.
-        Delectus aspernatur placeat libero optio explicabo necessitatibus, doloribus accusantium, vitae culpa beatae voluptatum. Rerum quis blanditiis culpa itaque saepe. Explicabo quo vero eligendi nostrum iusto velit dolorem rem cupiditate quisquam!
-        Facilis doloremque qui accusantium autem fuga blanditiis non cupiditate, ipsam voluptatem explicabo? Eos quis harum reiciendis deserunt ea temporibus quod vel dignissimos voluptates, itaque possimus nam eaque nemo neque sequi.
-        Commodi voluptatum rem impedit maxime pariatur ratione, ullam consequatur architecto cum sint. Facere exercitationem rerum doloribus. Voluptatibus reiciendis porro quo! Repudiandae laborum autem sit sint illo in quam rerum excepturi!
-        Suscipit alias quis placeat architecto dolore, quasi hic ex optio accusamus? Magni nulla maxime ipsa obcaecati nostrum animi architecto enim. Minima, quia reiciendis ea quisquam iure aspernatur vero magni nulla?
-        Voluptatum iure iusto vel atque voluptatem. Tenetur, nemo incidunt. Veniam, quibusdam vero laborum repellat quis sunt blanditiis temporibus, a porro sapiente quisquam? Quasi fugit, praesentium itaque enim at quam laudantium!
-    </div>
 </body>
 
 </html>
