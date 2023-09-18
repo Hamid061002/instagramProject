@@ -617,6 +617,11 @@ video {
           margin-inline-start: 1px;
 }
 
+.ms-16 {
+  -webkit-margin-start: 4rem;
+          margin-inline-start: 4rem;
+}
+
 .ms-2 {
   -webkit-margin-start: 0.5rem;
           margin-inline-start: 0.5rem;
@@ -661,24 +666,24 @@ video {
   margin-top: 0.625rem;
 }
 
-.ms-16 {
-  -webkit-margin-start: 4rem;
-          margin-inline-start: 4rem;
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
-.ms-14 {
-  -webkit-margin-start: 3.5rem;
-          margin-inline-start: 3.5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
-.ms-12 {
-  -webkit-margin-start: 3rem;
-          margin-inline-start: 3rem;
+.-mt-6 {
+  margin-top: -1.5rem;
 }
 
-.ms-20 {
-  -webkit-margin-start: 5rem;
-          margin-inline-start: 5rem;
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.-mt-4 {
+  margin-top: -1rem;
 }
 
 .block {
@@ -741,6 +746,10 @@ video {
   width: 4rem;
 }
 
+.w-287 {
+  width: 287px;
+}
+
 .w-312 {
   width: 312px;
 }
@@ -749,8 +758,16 @@ video {
   width: 9rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .w-66 {
   width: 62px;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .w-full {
@@ -761,16 +778,8 @@ video {
   width: 100vw;
 }
 
-.w-287 {
-  width: 287px;
-}
-
-.w-550 {
-  width: 550px;
-}
-
-.w-80 {
-  width: 20rem;
+.w-185 {
+  width: 185px;
 }
 
 .flex-1 {
@@ -803,10 +812,6 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .gap-x-2 {
@@ -842,14 +847,31 @@ video {
   row-gap: 0.375rem;
 }
 
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
+.gap-x-1 {
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+}
+
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1px * var(--tw-space-x-reverse));
+  margin-left: calc(1px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .divide-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
-}
-
-.justify-self-center {
-  justify-self: center;
 }
 
 .overflow-hidden {
@@ -909,19 +931,9 @@ video {
   background-color: rgb(239 239 239 / var(--tw-bg-opacity));
 }
 
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-tr {
@@ -972,6 +984,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-0 {
@@ -1027,6 +1044,10 @@ video {
   line-height: 1rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -1035,13 +1056,22 @@ video {
   font-weight: 600;
 }
 
-.font-bold {
-  font-weight: 700;
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -1064,9 +1094,22 @@ video {
   color: rgb(113 113 122 / var(--tw-text-opacity));
 }
 
-.text-blue-400 {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity));
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .transition-all {
@@ -1274,23 +1317,9 @@ video {
     width: 15rem;
   }
 
-  .xl\:w-full {
-    width: 100%;
-  }
-
   .xl\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .xl\:ps-40 {
-    -webkit-padding-start: 10rem;
-            padding-inline-start: 10rem;
-  }
-
-  .xl\:ps-44 {
-    -webkit-padding-start: 11rem;
-            padding-inline-start: 11rem;
   }
 
   .xl\:ps-48 {
