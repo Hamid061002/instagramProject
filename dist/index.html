@@ -27,6 +27,19 @@
         a:hover{
             text-decoration: underline;
         }
+
+        .storiesWidth{
+            width: 100vw;
+            overflow-x: hidden;
+        }
+        @media screen and (min-width:640px) {
+            .storiesWidth{
+                width: 100%;
+            }
+        }
+        body::-webkit-scrollbar{
+            display: none;
+        }
     </style>
 </head>
 
@@ -259,11 +272,11 @@
     </div>
     <!-- body -->
     <section class="flex flex-row justify-center">
-        <div class="flex justify-center 1160:ps-10 xl:ps-48">
+        <div class="flex flex-row justify-center 1160:ps-10 xl:ps-48 md:ms-70">
             <!-- stories & posts -->
-            <div class="mt-16 md:mt-6 flex flex-col sm:justify-center items-center overflow-hidden">
+            <div class="mt-16 md:mt-6 flex flex-col sm:justify-center items-center storiesWidth">
                 <!-- stories -->
-                <div class="w-full flex flex-row sm:justify-center gap-x-4 pt-5 md:ms-10">
+                <div class="w-full flex flex-row sm:justify-center gap-x-4 pt-5 storiesWidth" >
                     <div class="flex flex-col w-16 cursor-pointer">
                         <div
                             class="w-66 h-66 flex flex-col justify-center items-center  bg-gradient-to-tr from-yellow-300 to-purple-500 rounded-full ">
@@ -356,12 +369,11 @@
                     </div>
                 </div>
                 <!-- posts -->
-                <div
-                    class="flex flex-col justify-center items-center border-t 480:border-t-0 w-screen 1160:w-full mt-2 md:ms-10 480:mt-8 480:divide-y-2 480:gap-y-5 pe-4 1160:pe-0 pb-20">
+                <div class="flex flex-col justify-center items-center border-t 480:border-t-0 1160:w-full mt-2 480:mt-8 480:divide-y-2 480:gap-y-5 1160:pe-0">
                     <!-- a post -->
-                    <div class="flex flex-col w-screen 480:w-470">
+                    <div class="flex flex-col 480:w-470">
                         <!-- profile -->
-                        <div class="p-3 pt-4 480:px-1">
+                        <div class="p-3 ps-4 pt-4 480:px-1">
                             <div class="float-left flex items-center">
                                 <div class="cursor-pointer relative">
                                     <img src="../photos/profiles/377333649_974925493611505_8072209828193678417_n.jpg"
@@ -374,7 +386,7 @@
                             </div>
                         </div>
                         <!-- post -->
-                        <div class="w-full bg-black rounded overflow-hidden">
+                        <div class="w-full bg-black 480:rounded overflow-hidden">
                             <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="w-full">
                         </div>
                         <!-- caption -->
@@ -489,7 +501,7 @@
                             </div>
                         </div>
                         <!-- post -->
-                        <div class="w-full bg-black rounded overflow-hidden">
+                        <div class="w-full bg-black 480:rounded overflow-hidden">
                             <img src="../photos/artworks-000108448660-6tml8y-t500x500.jpg" class="w-full">
                         </div>
                         <!-- caption -->
@@ -622,7 +634,7 @@
                             <div class="text-xs text-gray-500 w-185 truncate">Followed by behnam_parvizi7 + 22 more</div>
                         </div>
                         <!-- switch account -->
-                        <div class="text-xs float-right font-bold text-blue-400">Follow</div>
+                        <div class="text-xs float-right font-bold text-blue-400 cursor-pointer">Follow</div>
                     </div>
                     <!-- a suggested profile -->
                     <div class="flex items-center w-287">
@@ -635,7 +647,7 @@
                             <div class="text-xs text-gray-500 w-185 truncate">Followed by akoslmni + 5 more</div>
                         </div>
                         <!-- switch account -->
-                        <div class="text-xs float-right font-bold text-blue-400">Follow</div>
+                        <div class="text-xs float-right font-bold text-blue-400 cursor-pointer">Follow</div>
                     </div>
                     <!-- a suggested profile -->
                     <div class="flex items-center w-287">
@@ -648,7 +660,7 @@
                             <div class="text-xs text-gray-500 w-185 truncate">Followed by aryan_sohrabi8 + 3 more</div>
                         </div>
                         <!-- switch account -->
-                        <div class="text-xs float-right font-bold text-blue-400">Follow</div>
+                        <div class="text-xs float-right font-bold text-blue-400 cursor-pointer">Follow</div>
                     </div>
                     <!-- a suggested profile -->
                     <div class="flex items-center w-287">
@@ -661,7 +673,7 @@
                             <div class="text-xs text-gray-500 w-185 truncate">Followed by farzamzandnia + 3 more</div>
                         </div>
                         <!-- switch account -->
-                        <div class="text-xs float-right font-bold text-blue-400">Follow</div>
+                        <div class="text-xs float-right font-bold text-blue-400 cursor-pointer">Follow</div>
                     </div>
                     <!-- a suggested profile -->
                     <div class="flex items-center w-287">
@@ -674,7 +686,7 @@
                             <div class="text-xs text-gray-500 w-185 truncate">Followed by shdmman + 7 more</div>
                         </div>
                         <!-- switch account -->
-                        <div class="text-xs float-right font-bold text-blue-400">Follow</div>
+                        <div class="text-xs float-right font-bold text-blue-400 cursor-pointer">Follow</div>
                     </div>
                     <p class="py-5">
                         <span class="text-xs text-gray-400 opacity-70 font-normal">

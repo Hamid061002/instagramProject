@@ -19,6 +19,7 @@ module.exports = {
         500: "500px",
         550: "550px",
         600: "600px",
+        624: "624px",
       },
       height:{
         66: "62px"
@@ -28,7 +29,8 @@ module.exports = {
         3.5:"3.5px",
         'twoHalf': "2.8px",
         1: "1px",
-        '4px': "4px"
+        '4px': "4px",
+        "70": "70px"
       },
       screens:{
         670: "670px",
